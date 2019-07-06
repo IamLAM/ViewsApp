@@ -12,5 +12,15 @@
         android:text="Proporciona los años que tiene tu mascota"
         android:textSize="20sp"
         />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convertir"
+      />
 
 </android.support.constraint.ConstraintLayout>
