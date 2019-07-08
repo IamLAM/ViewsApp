@@ -20,7 +20,9 @@ android:orientation="vertical"
         />
 <EditText
     android:layout_width="match_parent"
-    android:layout_height="wrap_content" />
+    android:layout_height="wrap_content"
+    android:hint="Edad"
+    />
 
     <Button
         android:id="@+id/button"
@@ -28,7 +30,12 @@ android:orientation="vertical"
         android:layout_height="wrap_content"
         android:text="Convertir"
       />
-
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:text="La edad es:"
+    />
       </LinearLayout>
     <!--
 </android.support.constraint.ConstraintLayout>-->
