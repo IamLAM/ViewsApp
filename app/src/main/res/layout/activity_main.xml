@@ -37,10 +37,11 @@ android:orientation="vertical"
         android:text="Convertir"
       />
 <TextView
+    android:id="@+id/answer"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:textSize="20sp"
-    android:text="La edad es:"
+
     />
       </LinearLayout>
     <!--
