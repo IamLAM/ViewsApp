@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         buttonAction.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String userAge=ageText.toString();
+                String userAge=ageText.getText().toString();
                 int dogAge=Integer.parseInt(userAge);
                 answerText.setText("Mi edad es "+dogAge);
 
