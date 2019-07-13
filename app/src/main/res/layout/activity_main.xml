@@ -21,21 +21,21 @@ android:orientation="vertical"
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Proporciona los años que tiene tu mascota"
+        android:text="@string/pregunta"
         android:textSize="20sp"
         />
 <EditText
     android:id="@+id/age"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:hint="Edad"
+    android:hint="@string/editHint"
     />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Convertir"
+        android:text="@string/buttonCalcular"
       />
 <TextView
     android:id="@+id/answer"

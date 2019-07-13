@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ViewsApp</string>
+    <string name="pregunta">Proporciona los años que tienes:</string>
+    <string name="editHint">Edad</string>
+    <string name="buttonCalcular">Calcular</string>
+
 </resources>
