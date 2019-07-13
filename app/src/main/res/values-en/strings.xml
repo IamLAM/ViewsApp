@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ViewsApp</string>
+    <string name="pregunta">How old are you?:</string>
+    <string name="editHint">Age</string>
+    <string name="buttonCalcular">Calculate</string>
+    <string name="respuesta">Your dog age would be: </string>
+    <string name="error">Please write a number</string>
+
+</resources>
