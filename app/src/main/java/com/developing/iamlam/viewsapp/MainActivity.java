@@ -24,15 +24,16 @@ private static final String TAG="MainActivity";
             @Override
             public void onClick(View view) {
                 String userAge=ageText.getText().toString();
+                String getAnswer=getString(R.string.respuesta);
                 try {
                     int dogAge = Integer.parseInt(userAge);
-                    answerText.setText("Mi edad es " + dogAge * 6);
+                    answerText.setText(getAnswer + dogAge * 6);
                     Log.i(TAG,"Un valor fue insertado");
                 }
                 catch(NumberFormatException e){
                   //  answerText.setText("Por favor incluye un numero entero");
 
-                    Toast.makeText(MainActivity.this,"Por favor incluye un numero entero",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this,getString(R.string.error),Toast.LENGTH_SHORT).show();
                     Log.e(TAG,"No se pudo insertar ningun valor");
 
                 }

@@ -3,5 +3,7 @@
     <string name="pregunta">Proporciona los años que tienes:</string>
     <string name="editHint">Edad</string>
     <string name="buttonCalcular">Calcular</string>
+    <string name="respuesta">Tu edad en perro sería</string>
+    <string name="error">Por favor incluye un numero entero</string>
 
 </resources>
