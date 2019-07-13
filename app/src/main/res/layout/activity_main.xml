@@ -25,6 +25,7 @@ android:orientation="vertical"
         android:textSize="20sp"
         />
 <EditText
+    android:id="@+id/age"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:hint="Edad"
