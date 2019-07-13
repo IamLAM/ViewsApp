@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String userAge=ageText.getText().toString();
                 int dogAge=Integer.parseInt(userAge);
-                answerText.setText("Mi edad es "+dogAge);
+                answerText.setText("Mi edad es "+dogAge*6);
 
             }
         });
