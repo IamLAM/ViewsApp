@@ -22,9 +22,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String userAge=ageText.getText().toString();
-                int dogAge=Integer.parseInt(userAge);
-                answerText.setText("Mi edad es "+dogAge*6);
+                try {
+                    int dogAge = Integer.parseInt(userAge);
+                    answerText.setText("Mi edad es " + dogAge * 6);
+                }
+                catch(NumberFormatException e){
+                    answerText.setText("Por favor incluye un numero entero");
 
+                }
             }
         });
     }
