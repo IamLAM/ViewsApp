@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 private static final String TAG="MainActivity";
@@ -29,7 +30,9 @@ private static final String TAG="MainActivity";
                     Log.i(TAG,"Un valor fue insertado");
                 }
                 catch(NumberFormatException e){
-                    answerText.setText("Por favor incluye un numero entero");
+                  //  answerText.setText("Por favor incluye un numero entero");
+
+                    Toast.makeText(MainActivity.this,"Por favor incluye un numero entero",Toast.LENGTH_SHORT).show();
                     Log.e(TAG,"No se pudo insertar ningun valor");
 
                 }
